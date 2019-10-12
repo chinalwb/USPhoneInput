@@ -1,4 +1,4 @@
-package com.martingale.pact.phoneinputlib;
+package com.martingale.pact.usphoneinput;
 
 import org.junit.Test;
 
