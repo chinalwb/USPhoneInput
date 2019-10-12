@@ -161,7 +161,7 @@ class USPhoneInputEditText(context: Context, attributeSet: AttributeSet) : AppCo
                         return
                     }
                     setText(formatResult)
-                    setSelection(formatResult.length)
+                    setSelection(text!!.length)
                 }
             }
         })
