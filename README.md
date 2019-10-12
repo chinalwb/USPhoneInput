@@ -2,3 +2,42 @@
 Phone Input EditText for US numbers
 
 [ ![Download](https://api.bintray.com/packages/chinalwb/usphoneinput/usphoneinput/images/download.svg?version=1.0) ](https://bintray.com/chinalwb/usphoneinput/usphoneinput/1.0/link)
+
+## Features
+1. Auto format user input numbers as US phone number format, like (888) 888-1119
+2. Support paste phone number and format the content as US phone number
+3. Phone number re-edit will format the content as US phone number automatically
+
+## Features demo
+
+
+## How to use
+
+1. In build.gradle:
+```
+implementation 'com.github.chinalwb:usphoneinput:1.0'
+```
+2. In your layout XML, refer to `com.chinalwb.usphoneinput.USPhoneInputEditText` like below:
+```
+<com.chinalwb.usphoneinput.USPhoneInputEditText
+        android:id="@+id/phone_edit"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@color/colorAccent"
+        android:hint="USPhoneInput"
+        android:textSize="30sp"
+        />
+```
+
+
+----------
+
+MIT License
+
+Copyright (c) 2019 Rain Liu
+
+Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the "Software"), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
