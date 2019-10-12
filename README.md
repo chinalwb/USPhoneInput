@@ -9,7 +9,22 @@ Phone Input EditText for US numbers
 3. Phone number re-edit will format the content as US phone number automatically
 
 ## Features demo
+![USPhoneInputDemo](./demo/USPhoneInputDemo.gif)
 
+Check points:
+1. [x] Normal input a valid phone number
+2. [x] Normal delete a digt
+3. [x] Don't allow to delete a non-digit
+4. [x] Delete the number before a non-digit will re-format the content 
+5. [x] Try to input a number at the very beginning will put the input digit after '(' 
+
+
+![USPhoneInputPasteDemo](./demo/USPhoneInputPasteDemo.gif)
+
+Check points:
+1. [x] Paste more characters than a valid phone number length, but contains a valid phone number
+2. [x] Paste a valid phone number
+3. [x] Paste less characters than a valid phone number length
 
 ## How to use
 
