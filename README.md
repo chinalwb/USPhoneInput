@@ -44,6 +44,9 @@ implementation 'com.github.chinalwb:usphoneinput:1.0'
         />
 ```
 
+## Thank you
+This project is using [libphonenumber-android](https://github.com/MichaelRocks/libphonenumber-android) for validating if the input is a valid US phone number.
+
 
 ----------
 
