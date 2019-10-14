@@ -43,6 +43,8 @@ implementation 'com.github.chinalwb:usphoneinput:1.0'
         android:textSize="30sp"
         />
 ```
+3. If you need an implementation in java (rather than Kotlin, probably you're still using android support library but not ready yet for migrating to androidx), copy `com.chinalwb.usphoneinput.injava.USPhoneInputEditText` into your project directly, and refer to this view in your layout xml.
+
 
 ## Thank you
 This project is using [libphonenumber-android](https://github.com/MichaelRocks/libphonenumber-android) for validating if the input is a valid US phone number.
